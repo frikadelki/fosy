@@ -1,11 +1,11 @@
 {
-    "name": "fosy0",
-    "short_name": "fosy0",
+    "name": "FOSY",
+    "short_name": "FOSY",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "FOSY — a PCM synthesizer with a text-scripted patch language.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
