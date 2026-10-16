@@ -92226,42 +92226,42 @@ d===$&&A.a()
 c=B.e.bs(B.d.az(d.b+e),1,4)-1
 if(k)b=(g<h?b9[g]:0)>=0.5
 else b=!0
-for(e=g<n,d=g<m,a=g<l,a0=0,a1=0;a1<4;++a1){a2=b5.CW
-a2===$&&A.a()
-a3=a2[a1]
-a4=a1===c
-a2=b5.gA(0)[a1].d.a
-a2===$&&A.a()
-a2=a2.b
-a5=a4?e?c2[g]:0:0
-a6=B.d.bs(a2*Math.pow(2,a5),0.001,8)
-a7=B.e.az(o)
-a8=B.e.bs(B.d.az(a6*b7),2,a7)
-a5=b5.gOm(0)[a1].d.a
-a5===$&&A.a()
-a5=a5.b
-a2=a4?d?c1[g]:0:0
-if(a4)a9=(a?c3[g]:0)>=0.5
-else a9=!1
-b0=A.b5k(a9,a5,a2)
-a3.b=A.aiu(a3.b,a8)
-b1=b&&a4
-if(!b1)a3.f=!1
-b2=b1&&!a3.f
-if(c4){a2=b5.gx9(0)[a1].d.a
-a2===$&&A.a()
-b3=J.pn(a2.b,0,1)
-a0+=(b2?f:A.aXM(a3.a,a3.b,a8))*b3}if(b2){if(!a3.d)a3.e=a3.c=0
-a2=A.aiu(a3.c,a8)
-a3.c=a2
-b4=B.e.bs(B.d.eK(a2),0,a8-1)
-a2=a3.a
-a2.$flags&2&&A.aF(a2)
-a2[b4]=f
-a3.c=A.aiu(a3.c+1,a8)
-a2=++a3.e
-if(r&&a2>=a8)a3.f=!0}a3.d=b1
-a3.b=A.aiu(a3.b+b0,a8)}p[g]=q?f:a0}return b5.cx=new A.cz(p,b7)},
+for(e=!b,d=g<n,a=g<m,a0=g<l,a1=0,a2=0;a2<4;++a2){a3=b5.CW
+a3===$&&A.a()
+a4=a3[a2]
+a5=a2===c
+a3=b5.gA(0)[a2].d.a
+a3===$&&A.a()
+a3=a3.b
+a6=a5?d?c2[g]:0:0
+a7=B.d.bs(a3*Math.pow(2,a6),0.001,8)
+a8=B.e.az(o)
+a9=B.e.bs(B.d.az(a7*b7),2,a8)
+a6=b5.gOm(0)[a2].d.a
+a6===$&&A.a()
+a6=a6.b
+a3=a5?a?c1[g]:0:0
+if(a5)b0=(a0?c3[g]:0)>=0.5
+else b0=!1
+b1=A.b5k(b0,a6,a3)
+a4.b=A.aiu(a4.b,a9)
+if(e)a4.f=!1
+b2=b&&a5&&!a4.f
+if(c4){a3=b5.gx9(0)[a2].d.a
+a3===$&&A.a()
+b3=J.pn(a3.b,0,1)
+a1+=(b2?f:A.aXM(a4.a,a4.b,a9))*b3}if(b2){if(!a4.d)a4.e=a4.c=0
+a3=A.aiu(a4.c,a9)
+a4.c=a3
+b4=B.e.bs(B.d.eK(a3),0,a9-1)
+a3=a4.a
+a3.$flags&2&&A.aF(a3)
+a3[b4]=f
+a4.c=A.aiu(a4.c+1,a9)
+a3=++a4.e
+if(r&&a3>=a9)a4.f=!0}else if(r&&b&&a4.d&&a4.e>0)a4.f=!0
+a4.d=b2
+a4.b=A.aiu(a4.b+b1,a9)}p[g]=q?f:a1}return b5.cx=new A.cz(p,b7)},
 a1n(a,b){var s=this.cx
 if(s==null||s.a.length!==b.c)return A.w5(b.c,this.b)
 return s},
@@ -105896,7 +105896,7 @@ o.push(B.um)
 o.push(B.b3)
 return o})
 s($,"bc3","a4G",()=>{var q="PcmBufferArray"
-return A.e3("PcmBufferArray \u2014 four PCM slots. Record prints the input into the selected slot; once stops at a single window. While a take is printing that slot monitors the input and the others keep looping. Reverse flips the selected read head; its speed and length take 1V/oct.",q,A.b5l(),$.aSq(),"buf_",B.aT,B.UF,q)})
+return A.e3("PcmBufferArray \u2014 four PCM slots. Record prints the input into the selected slot; once latches each slot after one take, so a select tour can arm all four. While a take is printing that slot monitors the input and the others keep looping. Reverse flips the selected read head; its speed and length take 1V/oct.",q,A.b5l(),$.aSq(),"buf_",B.aT,B.UF,q)})
 s($,"bc4","a4H",()=>A.e3("Pedal \u2014 a press-and-hold button as a CV source: gate, trig, rusty bounce, or a one-shot linear/exp decay (length = the time knob).","Pedal",A.b5m(),B.Yv,"pedal_",B.q5,B.a5,"Pedal"))
 s($,"bca","a4I",()=>{var q="Sequencer8"
 return A.e3("Sequencer8 \u2014 8-step gate pulsing on/off per step at the configured BPM.",q,A.b5y(),B.a2Y,"seq8_",B.qj,B.a5,q)})
